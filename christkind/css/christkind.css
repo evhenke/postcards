@@ -1,0 +1,121 @@
+body {
+	background-color: #FB573B;
+	color: #fff;
+}
+
+#content {
+	margin-top: 8.5vh;
+	margin-bottom: 5vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Futura, Helvetica;
+	color: inherit;
+	text-transform: uppercase;
+	padding: 1px 0;
+	margin: 3px 0;
+}
+
+h2 {
+	line-height: 2.1;
+	margin-top: -30px;
+}
+
+h6 {
+	margin-top: 1em;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	background: rgba(99,100,103,0.07);
+	padding: 2px 5px 2px 3px;
+	/* border-bottom: 1px dotted rgba(145,152,167,0.12); */
+}
+
+a:hover {
+	color: inherit;
+	background: rgba(99,100,103,0.2);
+}
+
+p {
+	margin-top: 0;
+	margin-right: 9em;
+	font-size: smaller;
+	line-height: 2;
+}
+
+textarea {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px dotted rgba(0,0,0,0.1);
+	margin-top: 4.4em;
+	font-size: 1.2em;
+	line-height: 1.4;
+	color: #FB573B;
+    font-family: 'Sue Ellen Francisco', cursive;
+	text-align: left;
+}
+
+#postcard {
+	height: 148mm;
+	width: 105mm;
+	border: 8px solid #fff;
+	background-color: #fff;
+	-moz-box-shadow:    0 10px 8px -8px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 10px 8px -8px rgba(0,0,0,0.3);
+	box-shadow:         0 10px 8px -8px rgba(0,0,0,0.3);
+}
+
+#btn_submit {
+	border: 4px #fff solid;
+	background-color: #FB573B;
+	text-transform: uppercase;
+	font-family: Futura, Helvetica;
+	font-size: large;
+	color: #fff;
+	width: 100%;
+	padding-top: 0.35em;
+	padding-bottom: 0.35em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	cursor: pointer;
+	transition: all 1s ease;
+}
+
+#btn_submit:hover {
+	background-color: #fff;
+	color: #FB573B;
+}
+
+footer {
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 0.8em;
+}
+
+#color-slider {
+    height:10px;
+    width: 200px;  
+}
+
+#liebes_christkind {
+    color: #FB573B;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 1.2em;
+	padding-top: 100px;
+}
+
+#adresse_christkind {
+    color: #4F393C;
+    font-size: 0.9em;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 23em 10em 0 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}

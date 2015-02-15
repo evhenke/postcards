@@ -1,0 +1,213 @@
+body
+{
+	background-color: #F7F7F7;
+	color: #58595B;
+	margin:0;
+	font:10px bold Arial, Helvetica, sans-serif;
+	position: relative;
+}
+
+h2
+{
+	text-transform: uppercase;
+	font-family: Futura, Arial, Helvetica, sans-serif;
+	text-align:left;
+}
+
+h3
+{
+	text-transform: uppercase;
+	text-align:left;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	background: rgba(99,100,103,0.07);
+	padding: 2px 5px 2px 3px;
+	/* border-bottom: 1px dotted rgba(145,152,167,0.12); */
+}
+
+a:hover {
+	color: inherit;
+	background: rgba(99,100,103,0.2);
+}
+
+#postcard {
+	height: 148mm;
+	width: 105mm;
+	border: 8px solid #fff;
+	background-color: #fff;
+	-moz-box-shadow:    0 10px 8px -8px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 10px 8px -8px rgba(0,0,0,0.3);
+	box-shadow:         0 10px 8px -8px rgba(0,0,0,0.3);
+}
+
+#postcard svg {
+	//width: 20.177mm;
+	//height: 20.177mm;
+	margin-top: 50mm;
+	margin-bottom: 8mm;
+}
+
+#btn_submit {
+	border: 4px #E3E3E6 solid;
+	text-transform: uppercase;
+	font-family: Futura, Helvetica;
+	font-size: large;
+	color: #E3E3E6;
+	width: 100%;
+	padding-top: 0.35em;
+	padding-bottom: 0.35em;
+	margin-top: 3em;
+	margin-bottom: 2em;
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#btn_submit:hover {
+	opacity: 1;
+}
+
+#btn_submit:disabled {
+	opacity: 0.5;
+	cursor: inherit;
+}
+
+// BEGINN RESPONSIVE GRID SYSTEM BY responsivegridsystem.com ** Thank you **
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 5%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF TWO  */
+.span_3_of_3 {
+	width: 100%;
+}
+.span_2_of_3 {
+	width: 65%;
+}
+.span_1_of_3 {
+	width: 30%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 760 PIXELS */
+
+@media only screen and (max-width: 680px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 680px) {
+.span_3_of_3 {
+	width: 100%; 
+}
+.span_2_of_3 {
+	width: 100%; 
+}
+.span_1_of_3 {
+	width: 100%;
+}
+}
+
+// END RESPONSIVE GRID SYSTEM //
+
+
+.container-border
+{
+	border:none;
+	width:360px;
+	height: 10px;
+	margin-top:10px;
+	border-radius:5px;
+	overflow:hidden;
+	position:relative;
+	left:50%;
+	margin-left:-180px;
+}
+.container
+{
+	width: 360px;
+  	background: #E8E8EA;
+  	border-radius:5px;
+}
+
+.dragEl
+{
+	position:relative;
+	background:#5F6062;
+	height:10px;
+	width:14px;
+	z-index:10;
+	border-radius:5px;
+}
+.bar
+{
+	height:10px;
+	width:0;
+	position:absolute;
+	z-index:5;
+	border-radius:5px;
+}
+.logDiv
+{
+	margin-top:10px;
+	width:450px;
+	text-align:center;
+	position:relative;
+	left:50%;
+	margin-left:-225px;
+}
+
+.heart1 {
+	fill: #ED1F24;
+}
+.heart2 {
+	fill: #F0593E;
+}
+.heart3 {
+	fill: #F37758;
+}
+.heart4 {
+	fill: #F3795A;
+}
+.heart5 {
+	fill: #F58A6B;
+}
+
+#footer
+{
+  margin:20px;
+  width: 100%;
+  text-align: center;
+  bottom: 1em;
+  position: fixed;
+  padding-top: 2em;
+  padding-bottom: 0.8em;
+}
